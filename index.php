@@ -14,7 +14,7 @@
     <?php include 'includes/componentes/menu.php';?>
     <div class='row' id='localizacao'>
         <div class='container col s12 m10 offset-m1'>
-            <span class='endereco'> <b> Sua Localização:</b> &nbsp; Rua Xesquedele, n° 0, Bairro Aqui </span>
+            <center><span class='endereco'> <b> Sua Localização:</b> &nbsp; Rua Xesquedele, n° 0, Bairro Aqui </span></center>
         </div>
     </div>
 
@@ -23,10 +23,9 @@
             <span class='col s12 endereco' style="display: flex; justify-content: center;"> 
                 <b> Quadras Próximas</b> &nbsp; 
             </span>
-            <div class='col s12 quadra' > <span class='endereco'> 1 - Arena Prêmio - 500 m </span> </div>
-            <div class='col s12 quadra' > <span class='endereco'> 1 - Arena Prêmio - 500 m </span> </div>
-            <div class='col s12 quadra' > <span class='endereco'> 1 - Arena Prêmio - 500 m </span> </div>
-            <div class='col s12 quadra' > <span class='endereco'> 1 - Arena Prêmio - 500 m </span> </div>
+            <a href="horarios.php?quadra=1" class="col s12" data-quadra> <div class='col s12 quadra' > <span class='endereco'> 1 - Arena Prêmio - 500 m </span> </div> </a>
+            <a href="horarios.php?quadra=2" class="col s12"> <div class='col s12 quadra' > <span class='endereco'> 2 - Joaquim - 650 m </span> </div> </a>
+            <a href="horarios.php?quadra=3" class="col s12"> <div class='col s12 quadra' > <span class='endereco'> 3 - Euclides - 780 m </span> </div> </a>
         </div>
     </div>
 
@@ -38,12 +37,11 @@
         });
 
         var windowWidth = window.innerWidth;
-        console.log(windowWidth);
         if(windowWidth < 992){
             var title = document.getElementById("brand-logo");
-            console.log('teste');
             title.innerHTML = 'Agenda';
         }
+        
     </script>
 </body>
 </html>

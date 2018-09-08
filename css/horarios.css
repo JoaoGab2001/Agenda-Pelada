@@ -1,0 +1,119 @@
+/* CSS DO INDEX */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;    
+}
+
+body{
+    background-image: url('../imagens/background.jpg');
+    background-size: 100%;
+}
+
+@media(min-width:920px){
+    .brand-logo{
+        margin-left: 5%;
+    }
+
+    #nav-mobile{
+        margin-right: 5%;
+    }
+
+    td{
+        max-width: 50px !important;
+    }
+}
+
+@media(max-width:920px){
+    #localizacao div{
+        padding: 2em !important;
+        border-radius: 5em !important;
+    }
+    .quadra{
+        padding: 2em !important;
+    }
+
+    .table-responsive {
+      display: block;
+      position: relative;
+      /*width: 100%;*/
+    }
+
+    .table-responsive thead,
+    .table-responsive tbody,
+    .table-responsive th,
+    .table-responsive td,
+    .table-responsive tr {
+      display: block;
+    }
+
+    .table-responsive td,
+    .table-responsive th {
+      height: 40px;
+    }
+
+    .table-responsive thead {
+      float: left;
+      border-right: 3px solid black;
+    }
+
+    .table-responsive tbody {
+      /*width: auto;*/
+      position: relative;
+      overflow-x: auto;
+      overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+
+    .table-responsive tbody tr {
+      display: inline-block;
+    }
+
+}
+    
+nav{
+    background-color: black;
+}
+
+#localizacao{
+    margin-top: 2%;
+}
+
+#localizacao div{
+    background-color: rgba(0,0,0,0.6);
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30em;
+}
+
+.endereco{
+    font-size: 2em;
+    color: #FFF;
+}
+
+#tudo{
+    background-color: rgba(0,0,0,0.6);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3em;
+}
+
+.quadra{
+    margin: 1%;
+    border-radius: 3em;    
+}
+
+.green{
+    cursor: pointer;
+}
+
+td{
+    text-align: center;
+    border: 1px solid black;
+}
