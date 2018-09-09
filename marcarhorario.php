@@ -25,21 +25,21 @@
     <div class='row' id='quadras'>
         <div class='container col s12 m10 offset-m1' id="tudo">
             <span class='col s12 endereco' style="display: flex; justify-content: center;text-align: center;"> 
-                <b class="red-text"> Arena Prêmio - <i> <?php print($semana); ?> as <?php print($hora); ?> horas </i> </b> 
+                <b class="orange-text"> Arena Prêmio - <i> <?php print($semana); ?> as <?php print($hora); ?> horas </i> </b> 
             </span>            
-            <div class='col s12 quadra white' style="padding-bottom: 2%;">
+            <div class='col s12 quadra' style="padding-bottom: 2%;">
                 <form method="post" action="" class="col s12">
-                    <h4 align="center" class="grey-text"> Preencha o formulário para marcar o horário</h4>
+                    <h4 align="center" class="white-text"> Preencha o formulário para marcar o horário</h4>
                     <div class="input-field col s12 m4 offset-m1">
-                      <input id="nome" type="text" class="validate" autocomplete="off">
-                      <label for="nome">Nome</label>
+                      <input id="nome" type="text" autocomplete="off" required="">
+                      <label for="nome" class="orange-text">Nome</label>
                     </div>
                     <div class="input-field col s12 m4 offset-m2">
-                      <input type="tel" id="telefone" name="telefone" pattern="[9][0-9]{8}" required />
-                      <label for="telefone">Telefone</label>
+                      <input type="tel" id="telefone" name="telefone" pattern="[9][0-9]{8}" required='' />
+                      <label for="telefone" class="orange-text">Telefone</label>
                     </div>                    
                 </form>
-                <button type="submit" class="waves-effect col s12 m10 offset-m1 waves-light btn-large green"> Marcar Horário </button>
+                <button type="submit" class="waves-effect col s12 m10 offset-m1 waves-light btn-large blue"> Marcar Horário </button>
             </div>
         </div>
     </div>

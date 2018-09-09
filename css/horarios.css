@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url('../imagens/background.jpg');
+    background-image: url('../imagens/background2.jpg');
     background-size: 100%;
 }
 
@@ -73,7 +73,7 @@ body{
 }
     
 nav{
-    background-color: black;
+    background-color: rgb(13, 118, 152);
 }
 
 #localizacao{
@@ -81,7 +81,7 @@ nav{
 }
 
 #localizacao div{
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(13, 118, 152,0.4);
     padding: 2%;
     display: flex;
     align-items: center;
@@ -95,7 +95,7 @@ nav{
 }
 
 #tudo{
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(13, 118, 152,0.4);
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -106,14 +106,19 @@ nav{
 
 .quadra{
     margin: 1%;
-    border-radius: 3em;    
-}
+    border-radius: 3em;  
+    background-color: rgb(13, 118, 152) !important;
+} 
 
-.green{
+.blue{
     cursor: pointer;
 }
 
 td{
     text-align: center;
     border: 1px solid black;
+}
+
+input{
+    border-bottom: 1px solid orange !important;
 }

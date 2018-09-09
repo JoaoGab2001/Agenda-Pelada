@@ -12,15 +12,21 @@
 </head>
 <body>
     <?php include 'includes/componentes/menu.php';?>
+    <div class='row' id='localizacao'>
+        <div class='container col s12 m10 offset-m1'>
+            <center><span class='endereco'> <b> Sua Localização:</b> &nbsp; Rua Xesquedele, n° 0, Bairro Aqui </span></center>
+        </div>
+    </div>
 
-    <div class='container col 10 offset-m1' id='intro'>
-        <span class='col s12 endereco orange-text' style="display: flex; justify-content: center;"> 
-            <b> AGENDA PELADA</b>
-        </span> <br>
-        <h4 class="orange-text">
-            <i> O <b> Melhor </b> Lugar para você agendar a sua Pelada! </i>
-        </h4> <br>
-        <a href="quadrasproximas.php" class="col s12 btn-large orange"> Ver Quadras Próximas </a>
+    <div class='row' id='quadras'>
+        <div class='container col s12 m10 offset-m1'>
+            <span class='col s12 endereco' style="display: flex; justify-content: center;"> 
+                <b> Quadras Próximas</b> &nbsp; 
+            </span>
+            <a href="horarios.php?quadra=1" class="col s12"> <div class='col s12 quadra' > <span class='endereco'> 1 - Arena Prêmio - 500 m </span> </div> </a>
+            <a href="horarios.php?quadra=2" class="col s12"> <div class='col s12 quadra' > <span class='endereco'> 2 - Joaquim - 650 m </span> </div> </a>
+            <a href="horarios.php?quadra=3" class="col s12"> <div class='col s12 quadra' > <span class='endereco'> 3 - Euclides - 780 m </span> </div> </a>
+        </div>
     </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -30,13 +36,7 @@
             var instances = M.Sidenav.init(elems);
         });
 
-        const windowWidth = window.innerWidth;
-        const windowHeight = window.innerHeight;
-
-        var metade = (windowHeight)/2
-        var div = document.getElementById('intro');
-        div.style.marginTop = metade+'px';
-
+        var windowWidth = window.innerWidth;
         if(windowWidth < 992){
             var title = document.getElementById("brand-logo");
             title.innerHTML = 'Agenda';
