@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" type="imagem/png" href="imagens/logo.png" />    
+    <link rel="icon" type="imagem/icon" href="imagens/dale.ico" />   
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/index.css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">

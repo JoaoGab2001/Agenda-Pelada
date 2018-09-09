@@ -17,10 +17,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="icon" type="imagem/icon" href="imagens/dale.ico" />   
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/horarios.css"/>
-    <link rel="icon" type="imagem/png" href="imagens/logo.png" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>Agenda Pelada - Arena Prêmio</title> <!-- MUDAR O TITULO DE ACORDO COM A QUADRA -->
 </head>
