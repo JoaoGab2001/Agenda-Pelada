@@ -28,7 +28,7 @@ body{
 @media(max-width:920px){
     #localizacao div{
         padding: 2em !important;
-        border-radius: 5em !important;
+        border-radius: 2em !important;
     }
     .quadra{
         padding: 2em !important;
@@ -86,7 +86,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 30em;
+    border-radius: 20em;
 }
 
 .endereco{
@@ -101,12 +101,12 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 3em;
+    border-radius: 2em;
 }
 
 .quadra{
     margin: 1%;
-    border-radius: 3em;  
+    border-radius: 2em;  
     background-color: rgb(13, 118, 152) !important;
 } 
 
@@ -117,8 +117,4 @@ nav{
 td{
     text-align: center;
     border: 1px solid black;
-}
-
-input{
-    border-bottom: 1px solid orange !important;
 }

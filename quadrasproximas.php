@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="imagens/logo.png" />    
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/index.css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
@@ -12,6 +13,9 @@
 </head>
 <body>
     <?php include 'includes/componentes/menu.php';?>
+
+    <?php include 'includes/componentes/loginadm.html';?>
+
     <div class='row' id='localizacao'>
         <div class='container col s12 m10 offset-m1'>
             <center><span class='endereco'> <b> Sua Localização:</b> &nbsp; Rua Xesquedele, n° 0, Bairro Aqui </span></center>
@@ -42,6 +46,12 @@
             title.innerHTML = 'Agenda';
         }
 
+        //MODAL DO LOGIN ADM
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+          });
     </script>
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="imagens/logo.png" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -13,14 +14,16 @@
 <body>
     <?php include 'includes/componentes/menu.php';?>
 
-    <div class='container col 10 offset-m1' id='intro'>
-        <span class='col s12 endereco orange-text' style="display: flex; justify-content: center;"> 
+    <?php include 'includes/componentes/loginadm.html';?>
+
+    <div class='container col s10 offset-s1' id='intro'>
+        <span class='col s12 endereco white-text' style="display: flex; justify-content: center;"> 
             <b> AGENDA PELADA</b>
         </span> <br>
-        <h4 class="orange-text">
-            <i> O <b> Melhor </b> Lugar para você agendar a sua Pelada! </i>
-        </h4> <br>
-        <a href="quadrasproximas.php" class="col s12 btn-large orange"> Ver Quadras Próximas </a>
+        <p align="center" class="white-text">
+            <i> Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Pra lá , depois divoltis porris, paradis. Per aumento de cachacis, eu reclamis. Sapien in monti palavris qui num significa nadis i pareci latim. </i>
+        </p> <br>
+        <a href="quadrasproximas.php" class="col s12 btn-large blue"> Ver Quadras Próximas </a>
     </div>
 
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -41,6 +44,13 @@
             var title = document.getElementById("brand-logo");
             title.innerHTML = 'Agenda';
         }
+
+        //MODAL DO LOGIN ADM
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+          });
 
     </script>
 </body>
